@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+    color: white;
+    background-color: #002426;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100rem;
+}
+h1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.container {
+    height: 5rem;
+}
+nav{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    height: 5rem;
+    justify-content: space-between;
+    background-color: #011C1D;
+    position: fixed;
+    width: calc(100% - 2rem);
+}
+
+.logo{
+    margin-right: auto;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    height: 100%;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.logo img{ 
+    border-radius: 50%;
+    max-width: 100%;
+    max-height: 80%;
+}
+
+.links{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+#menu-icon{
+    width: 5rem;
+    height:100%;
+    display: none;
+}
+@media only screen and (max-width: 480px){
+    #menu-icon{
+        display: block;
+    }
+    .links{
+        display: none;
+    }
+}
+
+.empty{
+    background-color: none;
+    height: 30rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divide{
+    background-color: none;
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+}
+.rest{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contentbox{
+    background-color: #002E31;
+    height: 20rem;
+    max-width: 30rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.contentbox1{
+    background-color: #002E31;
+    height: 5rem;
+    max-width: 20rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.contentbox2{
+    background-color: #002E31;
+    height: 5rem;
+    max-width: 20rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 18px;
+    font-weight: bolder;
+}
+#link21{
+    text-decoration: underline;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#bottom-one{
+    margin-top: 15rem;
+}
